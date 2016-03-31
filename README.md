@@ -5,13 +5,9 @@ https://github.com/primaeval/repository.imdbsearch/raw/master/zips/repository.im
 
 Requires:
 
-Meta4Kodi https://github.com/metate/meta4kodi
+* Meta4Kodi https://github.com/metate/meta4kodi
 
-and
+* and ExtendedInfo http://kodi.wiki/view/Add-on:ExtendedInfo_Script
 
-ExtendedInfo http://kodi.wiki/view/Add-on:ExtendedInfo_Script
-
-or
-
-ExtendedInfo Mod from https://github.com/OpenELEQ/repository.q
+* or ExtendedInfo Mod from https://github.com/OpenELEQ/repository.q
 
