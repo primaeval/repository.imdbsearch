@@ -1,2 +1,5 @@
+Version 0.0.4
+- user friendly selection names
+
 Version 0.0.3
 - first release
