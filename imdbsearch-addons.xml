@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+
+<addon id="repository.imdbsearch"
+		name="IMDb Search Addon Repository"
+		version="0.0.1"
+		provider-name="primaeval">
+	<extension point="xbmc.addon.repository"
+		name="IMDb Search Addon Repository">
+		<dir>
+			<info compressed="false">https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.xml</info>
+			<checksum>https://github.com/primaeval/repository.imdbsearch/raw/master/imdbsearch-addons.md5</checksum>
+			<datadir zip="true">https://raw.github.com/primaeval/repository.imdbsearch/master/zips/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">IMDb Search Addon Repository</summary>
+		<description lang="en">Addons for advanced IMDb searches.</description>
+		<disclaimer lang="en">This is not an official IMDb product, just a front end to their excellent advanced search pages.</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+<addon id="plugin.video.imdbsearch"
+version="0.0.3"
+name="Advanced IMDb Title Search"
+provider-name="primaeval">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+  <import addon="script.module.requests" version="2.4.3" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Advanced IMDb Title Search</summary>
+  <description lang="en">Powerful front end to the IMDb advanced title search. Most of the search fields are mapped to values in the Settings page. Playback is handed off to the Meta4Kodi addon. Built-in context menu for calling the Extended Info addon.</description>
+  <disclaimer lang="en">This is not an official IMDb product, just a front end to their excellent web page.</disclaimer>
+</extension>
+</addon>
+
+</addons>
