@@ -1,3 +1,6 @@
+Version 0.0.5
+- Meta library integration
+
 Version 0.0.4
 - user friendly selection names
 
