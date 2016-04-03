@@ -1,3 +1,6 @@
+Version 0.0.6
+- Trakt watchlist integration
+
 Version 0.0.5
 - Meta library integration
 

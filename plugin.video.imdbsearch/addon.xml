@@ -6,6 +6,7 @@ provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   <import addon="script.module.requests" version="2.4.3" />
+  <import addon="script.module.trakt" version="2.5.2"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
