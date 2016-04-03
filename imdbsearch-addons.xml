@@ -21,21 +21,22 @@
 	</extension>
 </addon>
 
-
 <addon id="plugin.video.imdbsearch"
-version="0.0.6"
+version="0.0.7"
 name="Advanced IMDb Title Search"
 provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   <import addon="script.module.requests" version="2.4.3" />
+  <import addon="script.trakt" version="3.1.4"/>
+  <import addon="script.module.trakt" version="2.5.2"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">Advanced IMDb Title Search</summary>
-  <description lang="en">Powerful front end to the IMDb advanced title search. Most of the search fields are mapped to values in the Settings page. Playback is handed off to the Meta4Kodi addon. Built-in context menu for calling the Extended Info addon.</description>
+  <description lang="en">Powerful front end to the IMDb advanced title search. Most of the search fields are mapped to values in the Settings page. Playback is handed off to the Meta4Kodi addon. Built-in context menu for calling the Extended Info addon. Trakt watchlist integration.</description>
   <disclaimer lang="en">This is not an official IMDb product, just a front end to their excellent web page.</disclaimer>
 </extension>
 </addon>

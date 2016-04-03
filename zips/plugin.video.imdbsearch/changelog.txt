@@ -1,3 +1,6 @@
+Version 0.0.7
+- I've been expecting you, Mr Bond.
+
 Version 0.0.6
 - Trakt watchlist integration
 
