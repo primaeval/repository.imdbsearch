@@ -22,14 +22,14 @@
 </addon>
 
 <addon id="plugin.video.imdbsearch"
-version="0.0.7"
+version="0.0.9"
 name="Advanced IMDb Title Search"
 provider-name="primaeval">
 <requires>
-  <import addon="xbmc.python" version="2.24.0"/>
-  <import addon="script.module.requests" version="2.4.3" />
-  <import addon="script.trakt" version="3.1.4"/>
-  <import addon="script.module.trakt" version="2.5.2"/>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.trakt" version="2.5.1"/>
+  <import addon="script.module.simplejson" version="3.3.0"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
