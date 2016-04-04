@@ -1,3 +1,6 @@
+Version 0.0.12
+- unicode fix
+
 Version 0.0.11
 - added new top level for searches
 - optional default context menu items
