@@ -1,3 +1,6 @@
+Version 0.0.9
+- install fix
+
 Version 0.0.8
 - Backward compatability to 15.2.
 
