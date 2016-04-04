@@ -1,3 +1,8 @@
+Version 0.0.11
+- added new top level for searches
+- optional default context menu items
+- sick/couch context menu if found
+
 Version 0.0.10
 - meta add to library url changed
 
