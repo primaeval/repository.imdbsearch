@@ -1,3 +1,6 @@
+Version 0.0.14
+- fanart jpg
+
 Version 0.0.13
 - Meta mode is now select
 - simple black fanart
