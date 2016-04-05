@@ -1,3 +1,7 @@
+Version 0.0.13
+- Meta mode is now select
+- simple black fanart
+
 Version 0.0.12
 - unicode fix
 
