@@ -1,3 +1,6 @@
+Version 0.0.15
+- crew search
+
 Version 0.0.14
 - fanart jpg
 
