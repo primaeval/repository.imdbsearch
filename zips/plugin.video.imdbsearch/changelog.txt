@@ -1,3 +1,9 @@
+Version 0.0.17
+- GB certificates
+
+Version 0.0.16
+- extra fields
+
 Version 0.0.15
 - crew search
 
