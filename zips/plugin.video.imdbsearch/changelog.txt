@@ -1,3 +1,9 @@
+Version 0.0.18
+- reload settings from favourite
+    (press defaults first to sync all settings with favourite!)
+- add to favourites if default context menu disabled
+    (some addons won't play from favourites menu!)
+
 Version 0.0.17
 - GB certificates
 
