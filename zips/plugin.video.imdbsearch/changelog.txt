@@ -1,3 +1,10 @@
+Version 0.0.19
+- NEW reload settings from favourite behaviour!
+    (all settings are encoded in the favourite url now)
+    (you will not be able to reload favourite settings from before 0.0.19)
+- information dialog with all settings  
+    (useful if you load a favourite)
+
 Version 0.0.18
 - reload settings from favourite
     (press defaults first to sync all settings with favourite!)
