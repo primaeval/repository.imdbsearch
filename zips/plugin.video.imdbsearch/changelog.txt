@@ -1,3 +1,7 @@
+Version 0.0.22
+- empty settings set to NULL in Favourites
+    (this should allow full reloads with any luck)
+
 Version 0.0.21
 - category fix
 
