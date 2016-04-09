@@ -22,7 +22,7 @@
 </addon>
 
 <addon id="plugin.video.imdbsearch"
-version="0.0.19"
+version="0.0.21"
 name="Advanced IMDb Title Search"
 provider-name="primaeval">
 <requires>
