@@ -1,3 +1,7 @@
+Version 0.0.20
+- WARNING: Favourites have changed again! Sorry!
+    (if you created a lot ask me to convert yours)
+
 Version 0.0.19
 - NEW reload settings from favourite behaviour!
     (all settings are encoded in the favourite url now)
