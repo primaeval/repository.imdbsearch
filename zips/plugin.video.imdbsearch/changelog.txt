@@ -1,3 +1,6 @@
+Version 0.0.23
+- Android fix
+
 Version 0.0.22
 - empty settings set to NULL in Favourites
     (this should allow full reloads with any luck)
