@@ -1,3 +1,6 @@
+Version 0.0.24
+- IMDb search fix (web page formatting change)
+
 Version 0.0.23
 - Android fix
 
