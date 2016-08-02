@@ -62,7 +62,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.video.imdb.watchlists"
-version="0.0.7"
+version="0.0.8"
 name="IMDb Watchlists"
 provider-name="primaeval">
 <requires>
