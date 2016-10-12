@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.imdb.watchlists"
-version="0.0.9"
-name="IMDb Watchlists"
+<addon id="plugin.video.imdbsearch"
+version="0.0.26"
+name="Advanced IMDb Title Search"
 provider-name="primaeval">
 <requires>
   <import addon="xbmc.python" version="2.20.0"/>
-  <import addon="script.module.xbmcswift2" version="2.4.0"/>
   <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.trakt" version="2.5.1"/>
+  <import addon="script.module.simplejson" version="3.3.0"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
 </extension>
-<extension point="xbmc.service"
-  library="service.py" start="startup">
-</extension>
 <extension point="xbmc.addon.metadata">
-  <summary lang="en">IMDb Watchlists</summary>
-  <description lang="en"></description>
-  <disclaimer lang="en">.</disclaimer>
+  <summary lang="en">Advanced IMDb Title Search</summary>
+  <description lang="en">Powerful front end to the IMDb advanced title search. Most of the search fields are mapped to values in the Settings page. Playback is handed off to the Meta4Kodi addon. Built-in context menu for calling the Extended Info addon. Trakt watchlist integration.</description>
+  <disclaimer lang="en">This is not an official IMDb product, just a front end to their excellent web page.</disclaimer>
 </extension>
 </addon>
+
