@@ -1,3 +1,6 @@
+Version 0.0.27
+- Moviemeter default
+
 Version 0.0.26
 - 2050 max year
 
