@@ -104,7 +104,7 @@ provider-name="primaeval">
 </addon>
 
 <addon id="plugin.video.imdb.tv"
-version="0.0.3"
+version="0.0.4"
 name="IMDb TV"
 provider-name="primaeval">
 <requires>
