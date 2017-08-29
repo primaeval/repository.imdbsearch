@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.imdb.search"
-version="0.0.11"
+version="0.0.12"
 name="IMDb Advanced Search"
 provider-name="primaeval">
 <requires>
@@ -12,6 +12,9 @@ provider-name="primaeval">
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
+</extension>
+<extension point="xbmc.service"
+  library="service.py" start="startup">
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en">IMDb Advanced Search</summary>
